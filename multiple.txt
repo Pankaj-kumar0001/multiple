@@ -1,0 +1,25 @@
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
+public class Solution {
+public static void main(String[] args) throws IOException {
+BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in
+));
+int N = Integer.parseInt(bufferedReader.readLine().trim());
+Student Name Shivam Anand Branch CSE
+UID 21BCS3276 Secton/Group 21BCS-610 A
+Date of 
+Performance 17-August-2022 Subject Name OOPs using Java
+Semester 3
+rd Subject Code 21CSH-218
+for( int i=1;i<=10;i++)
+{
+System.out.println(N+" x "+i+" = "+i*N);
+}
+bufferedReader.close();
+}
+}
